@@ -46,6 +46,6 @@ class ReviewFactory(BookFactory):
     """
     Create a book with a review.
     """
-    review = factory.Faker('text', max_no_chars=400)
+    review = factory.Faker('text', max_nb_chars=400)
     date_reviewed = now()
     reviewed_by = factory.SubFactory(UserFactory)
