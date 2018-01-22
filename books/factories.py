@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.utils.timezone import now
 from .models import Author, Book
 
-class AuthorFactrory(factory.django.DjangoModelFactory):
+class AuthorFactory(factory.django.DjangoModelFactory):
     """
     Creates an author.
     """
